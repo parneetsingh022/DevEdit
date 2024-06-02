@@ -1,0 +1,11 @@
+.menubar{
+    display:flex;
+    justify-content: space-between;
+    background-color: #000;
+    color:#fff;
+}
+
+.menu-links{
+    display:flex;
+    justify-content: space-between;
+}

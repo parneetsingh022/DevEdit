@@ -3,6 +3,10 @@ import { createRequire } from 'node:module'
 import { fileURLToPath } from 'node:url'
 import path from 'node:path'
 
+
+// Functions for main menu
+import './menu_operations/quit'
+
 const require = createRequire(import.meta.url)
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 
@@ -68,5 +72,8 @@ app.on('activate', () => {
     createWindow()
   }
 })
+
+
+
 
 app.whenReady().then(createWindow)
